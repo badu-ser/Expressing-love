@@ -34,4 +34,6 @@ var scaleCurve = mojs.easing.path('M0,100 L25,99.9999983 C26.2328835,75.0708847 
     duration:     500,
   }
 	});
-    
+    el.addEventListener('click', function () {
+    tween1.replay();
+});
